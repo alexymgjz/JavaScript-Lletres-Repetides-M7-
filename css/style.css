@@ -1,0 +1,40 @@
+body {
+  background-color: #a76612;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+.wrapper .container-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  background-color: #423030;
+}
+.wrapper .container-button button {
+  margin: 1em;
+}
+.wrapper .container-button p {
+  text-align: center;
+  background-color: aqua;
+  width: 342px;
+}
+.wrapper .container-text {
+  width: auto;
+  background-color: #423030;
+}
+.wrapper .container-text textarea {
+  margin: 1em;
+}
+.wrapper .container-text p {
+  text-align: center;
+  background-color: aqua;
+}
